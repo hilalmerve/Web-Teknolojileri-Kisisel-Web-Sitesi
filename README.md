@@ -1,2 +1,2 @@
 # Web-Teknolojileri-Kisisel-Web-Sitesi
-Kendimizi tanıtan kişisel bir web sitesi
+Kişisel bir web sitesi tasarımı.
