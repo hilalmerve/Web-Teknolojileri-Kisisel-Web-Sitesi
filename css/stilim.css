@@ -1,0 +1,313 @@
+
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:#ffecf4;
+	margin:0;
+}
+.a{
+	color:#449d66;
+	font-family:Arial;
+	text-decoration:none;
+	margin-left:20px;
+	margin-right:20px;
+}
+h2{
+	color:#d85e8f;
+	font-size:22px;
+	font-family:Arial;
+	font-weight:bold;
+}
+p{
+	color:#444444;
+	font-family:Arial;
+	font-size:16px;
+}
+hr{
+	margin-bottom:8px;
+	margin-top:35px;
+}
+.cz{
+	margin-bottom:8px;
+	margin-top:10px;
+}
+.menu{
+	text-align:center;
+}
+.menu ul{
+	list-style-type:none;
+	text-align:center;
+}
+.menu li{
+	position:relative;
+	float:left;
+	width:120px;
+}
+
+.bas{
+	font-style:italic;
+	font-family: cursive;
+}
+.sarkı{
+	color:#ad58c2;
+}
+.copyrightText{
+	font-family:Arial;
+	font-size:13px;
+	color:#444444;
+}
+.yaziKutu{
+		width: 350px;
+        height: 200px;
+        border: 1px dashed gray;
+        float: left;
+		margin-left:30px;
+        margin-right: 30px;
+        margin-bottom: 50px;
+        border-radius: 5px;
+        padding: 50px;
+        font-size: 15px;
+        font-style: italic;
+        padding-top: 50px;
+		color:#ad58c2;
+		font-weight:bold;
+}
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  padding: 15px;
+}
+th, td {
+  text-align: center;
+  font-family: Arial;
+  color:#d85e8f;
+}
+.bilgi{
+	 text-align: center;
+  font-family: Arial;
+  color:#d85e8f;
+}
+.tdd{
+	border:none;
+}
+.menuButon{
+	border-color:#449d66;
+	border-width:2px;
+	border-style: solid;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:17px;
+	padding-right:17px;
+	border-radius:6px;
+	margin-left:450px;
+	color:#449d66;
+	font-family:Arial;
+	text-decoration:none;
+	margin-left:430px;
+	margin-right:20px;
+	text-align:center;
+	
+	
+}
+.menuButon:hover{
+	background-color:#449d66;
+	color:#ffecf4;
+}
+#kutucuk{
+	width: 400px;
+        height: 500px;
+        border: 1px dashed gray;
+        float: left;
+        margin-right: 100px;
+        margin-bottom: 50px;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 14px;
+        font-style: italic;
+        padding-top: 80px;
+		padding-bottom:80px;
+		text-align:center;
+}
+#copy{
+	width:100%;
+	height:100px;
+	float:left;
+
+}
+#kutular{
+	margin-left:120px;
+	margin-right:10px;
+
+}
+#kutu{
+	position: relative; 
+	margin:auto;
+}
+ 
+ .paragraf{
+	 font-family:Arial;
+	 font-size:15px;
+	 text-align:center;
+	
+ }
+.ek{
+	 width: 300px;
+        height: 100px;
+
+	margin-left:500px;
+        margin-right: 2px;
+        margin-bottom: 75px;
+        padding: 50px;
+        font-size: 15px;
+        font-style: italic;
+        padding-top: 10px;
+		color:#ad58c2;
+		font-weight:bold;
+		display:block;
+		position:relative;
+		justify-content: center;
+		
+		
+ }
+ .ek ul li a{
+	 text-decoration:none;
+	 color:#ad58c2
+	
+ }
+ .sh{
+	 text-align:center;
+ }
+.gez{
+	text-align:center;
+}
+.gezi{
+	text-align:center;
+}
+.takimyazi{
+		width: 1000px;
+        height: 750px;
+        border: 1px dashed gray;
+        float: left;
+		margin-left:30px;
+        margin-right: 30px;
+        margin-bottom: 50px;
+        border-radius: 5px;
+        padding: 120px;
+        font-size: 15px;
+        font-style: italic;
+        padding-top: 150px;
+		color:#ad58c2;
+		font-weight:bold;
+	
+}
+.takimyazi h3{
+	color:#000;
+}
+.tb td, th{
+	color:#000;
+}
+.tddd{
+	 border: 1px solid black;
+	color:#000;
+}
+header
+{
+	width:100%;
+	background-color:#ffecf4;
+	
+
+}
+
+#res-menu
+{
+	display: none;
+	
+}
+
+header label
+{ 
+	display:none;
+	width: 32px;
+	height:32px;
+	padding:10px;
+	
+	
+}
+
+header label:hover{
+	cursor:pointer;
+	background-color: rgba(0,0,0,0.3);
+}
+
+
+.menu3 ul {
+	margin:0px;
+	padding:0px;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+.menu3 li {
+	border-right: 1px solid #449d66;
+	
+}
+.menu3 li:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+.menu3 li:first-child{
+	border-left:1px solid #449d66;
+}
+.menu3 li a{
+	display:block;
+	padding:15px 20px;
+	color:#449d66;
+	text-decoration: none;
+	font-family:Arial;
+	
+}
+@media (max-width:790px)
+{
+	header label
+	{
+		display:block;
+	}
+	
+	.menu3
+	{
+		position:absolute;
+		background-color:#ffecf4;
+		width:100%;
+		margin-top: -100% ;
+		transition: all 0.5s;
+	}
+	
+	.menu3 ul
+	{
+		flex-direction:column;
+	}
+	
+	
+	#res-menu:checked ~ .menu3
+	{
+		margin:0px;
+	}
+	
+	
+}
+.yer:hover{
+	text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+
+
