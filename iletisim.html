@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<meta charset="utf-8" />
+	<title> Kişisel Web Sitem </title>
+	<meta name="description" content="Benim Web Sitem">
+	<meta name="viewport"
+content="width-device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/stilim.css" />
+	<script src="iletisim.js"></script>
+
+	
+</head>
+
+
+<body>
+
+	<center>
+		<img src="images/logo.png" width="20%">
+		<h2 class="bas"> HM </h2>
+	</center>
+	
+	<hr>
+	
+	<center>
+	<header>
+  <input type="checkbox" id="res-menu">
+  <label for="res-menu"><img
+	   src="images/menuikon.jpg"></label>
+	
+  <nav class="menu3">
+    <ul>
+<li><a href="giris.html">Giriş</a> </li>
+<li><a href="hakkimda.html">Hakkımda</a> </li>
+<li><a href="ozgecmis.html">Özgeçmiş</a> </li>
+<li><a href="sehrim.html">Şehrim</a> </li>
+<li><a href="takimimiz.html">Takımımız</a> </li>
+<li><a href="iletisim.html">İletişim</a> </li>	
+	</ul>
+  </nav>
+</header>
+	</center>
+	
+	<hr class="cz">
+	
+	<center>
+	<img src="images/image15.png" width="25%">
+	</center>
+	
+	<hr>
+	<h2 align="center">AŞAĞIDAKİ FORMU DOLDURUNUZ.</h2>
+	
+	
+	
+	<form action="iletisim.php" method="get">
+		<div class="col-md-12">
+	<table class="table">
+			<tr><td>Adınız    : </td>
+			<td><input type="text" name="adi" id="adi"> </td></tr> <br>
+			<tr><td>Soyadınız :</td>
+			<td><input type="text" name="soyadi" id="soyadi"  ></td></tr><br>
+		
+			<tr><td>Email     :</td>
+			<td><input type="text" name="email" id="email" ><td></tr><br>
+			<tr><td>Erkek</td>
+			<td><input type="radio" id="cinsiyet" name="cinsiyet" value="erkek" ></td></tr><br>
+			<tr><td>Kadın</td>
+			<td><input type="radio" id="cinsiyet" name="cinsiyet" value="kadın" ></td></tr><br>
+		    <tr><td>Şehir      : 
+			<select name="sehir">
+                        <option value=""></option>
+                        <option value="İstanbul">İstanbul</option>
+                        <option value="Sakarya">Sakarya</option>
+                        <option value="Ankara">Ankara</option>
+                        <option value="Diğer">Diğer</option></tr>
+                    </select></td></tr>
+				<br>
+		    <tr><td> Mesajınız  :</td>
+			<td><textarea name="mesaj" id="mesaj" rows="4"></textarea></td></tr><br>
+		<tr><td><button type="submit" name="gönder" onclick="isValid()" value="Formu Gönder">GÖNDER</button></td></tr>
+		<tr><td><input type="reset" value="sıfırla"></td></tr>
+	
+	</table>
+		</div>
+	</form>
+	
+	
+	<center>
+		<div id="copy">
+		<hr>
+	<a class="a" href="https://facebook.com" target="blank"> <img src ="images/facebook_btn.png"></a>
+	<a class="a" href="https://instagram.com" target="blank"> <img src ="images/instagram_btn.png"></a>
+	<a class="a" href="https://twitter.com" target="blank"> <img src ="images/twitter_btn.png"></a>
+		<br>
+	<p class="copyrightText "align="center">Copyright © 2020</p>
+		<br>
+		</div>
+		</center>
+	</div>
+	</center>
+
+</body>
+</html>
